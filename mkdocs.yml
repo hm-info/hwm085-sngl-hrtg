@@ -1,0 +1,27 @@
+site_name: HWM085 Single Heritage Manual
+site_description: HWM085 Single Heritage Manual
+site_url: https://hm-info.github.io/hwm085-sngl-hrtg/
+
+docs_dir: docs
+
+theme:
+  name: material
+  language: tr
+  features:
+    - navigation.tabs
+    - navigation.top
+    - search.highlight
+  palette:
+    - scheme: default
+      primary: blue-grey
+      accent: blue-grey
+
+nav:
+  - Ana Sayfa / Home: index.md
+  - 🇹🇷 Türkçe: turkish.md
+  - 🇬🇧 English: english.md
+
+use_directory_urls: false
+
+plugins:
+  - search
