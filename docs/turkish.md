@@ -11,6 +11,7 @@
 ![HWM085](_media/Manualmode.png)
 
 **Manual Page :** Manuel kaynak işleminin yapıldığı çalışma sayfasıdır.
+
 - **Standart Çerçeve:** 4 köşe kaynak  işlemi için kullanılır.
 - **U Çerçeve:** U şeklinde eşikli çerçeve işlemi için kullanılır.
 - **Standart Kaynak:** 45-45 kesim standart kaynak modu içiçn kullanılır.

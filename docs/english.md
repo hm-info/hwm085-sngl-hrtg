@@ -12,6 +12,7 @@ Single Heritage
 ![HWM085](_media/Manualmode.png)
 
 **Manual Page:** This is the work page where manual welding operations are performed.
+
 - **Standard Frame:** Used for 4-corner welding operations.
 - **U Frame:** Used for U-shaped threshold frame operations.
 - **Standard Welding:** Used for 45-45 cut standard welding mode.
