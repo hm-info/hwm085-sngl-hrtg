@@ -1,6 +1,4 @@
-[[_TOC_]]
-
-# HWM085-34387
+# HWM085 Single Heritage Manual
 
 Four Corner Welding Machine.
 
@@ -8,9 +6,9 @@ First project, Uniqwork
 
 Single Heritage
 
-# Running Mode
+## Running Mode
 
-## Manual Page
+### Manual Page
 ![HWM085](_media/Manualmode.png)
 
 **Manual Page:** This is the work page where manual welding operations are performed.
@@ -22,7 +20,7 @@ Single Heritage
 - **Manual Pick-up:** If activated, frame unloading operation is not performed. The frame is picked up by the operator from inside the machine.
 - **Change Mold:** If activated, it positions the axes to the mold changing position for mold replacement.
 
-## Automatic Page
+### Automatic Page
 ![HWM085](_media/Automaticmode.png)
 
 **Automatic Mode:** This is the work page where the data required for the welding operation is taken from the job file.
@@ -38,26 +36,26 @@ Then the csv is checked with **Control**.
 If there are no errors, we load the job file by clicking **Transfer**.
 ![HWM085](_media/csv_transfer.png)
 
-# Definitions
+## Definitions
 
-## Profiles
+### Profiles
 ![HWM085](_media/Profiles.png)
 ![HWM085](_media/Profiles2.png)
 
 - This is the page where profile definitions are made.
 **ResistanceNo:** If the Resistance No column value is **1**, the resistance step works in standard welding position. If **0**, it works in heritage welding position.
 
-## Producer
+### Producer
 ![HWM085](_media/Producer.png)
 
 - This is the page where manufacturer information is added for the profile.
 
-## Color
+### Color
 ![HWM085](_media/Colors.png)
 
 - This is the page where color, gasket, bottom or top information is defined with the desired code information for the profile.
 
-## Barcode
+### Barcode
 ![HWM085](_media/Barcode.png)
 
 - **Barcode Length:** Specifies the character length used in the barcode.
@@ -68,24 +66,24 @@ If there are no errors, we load the job file by clicking **Transfer**.
 - **Y First-Last:** Specifies the character range where the frame Y length value information is defined.
 - **Special First-Last:** This is the field where definitions must be made for barcodes using special characters. It should be left blank for standard barcodes.
 
-# Service
+## Service
 
-## Parameters Page
+### Parameters Page
 - This is the page containing all parameters of the machine.
 ![HWM085](_media/parameters1.png)
 
-## Outputs
+### Outputs
 ![HWM085](_media/output.png)
 
 - The **Enable** button on the page is pressed. Then we click on the output we want to move to activate that output. Then we click again to return that output to its original position.
 By clicking the **Automatic** button, the selected output automatically performs set-reset operations for the entered duration.
 
-## Input Page
+### Input Page
 ![HWM085](_media/input.png)
 
 - This is the page containing the buttons, sensors and switches on the machine.
 
-## Program Settings
+### Program Settings
 
 ![HWM085](_media/program_settings.png)
 
@@ -102,14 +100,14 @@ By clicking the **Automatic** button, the selected output automatically performs
 - **URL:** If communication will be established with the CN784 machine, the relevant IP address is entered and communication with the CN784 interface is provided.
 - **Machine ID:** This is the ID number entered for information about which welding machine the data is coming from to CN784.
 
-### Axis Calibration
+#### Axis Calibration
 ![HWM085](_media/calibration.png)
 
 - After the relevant axis is selected on the page, we enter the value we want to calibrate the axis to in the **Calibration Value** field. When we press the **Calibrate** button at the bottom of the page, it will calibrate the axis to our desired value and the calibrated value will appear on the **Axis Actual Value** side.
 ![HWM085](_media/calibration_active.pngng)
 ![HWM085](_media/calibration_onay_.png.png)
 
-## Options
+### Options
 ![HWM085](_media/options.png)
 
 - This is the page where machine options are located.
@@ -122,7 +120,7 @@ By clicking the **Automatic** button, the selected output automatically performs
 - **Colour-White:** This option is activated if there is a colored pin in the machine.
 - **Unload First Floor Con Down:** In a double-deck welding machine, it unloads the 1st floor with the conveyor in reset position.
 
-# Jog Page
+## Jog Page
 ![HWM085](_media/jog.png)
 
 **Jog:** After pressing the **JOG** button on the page, the JOG- and JOG+ buttons are used to move the relevant axis to the desired position by pressing the relevant axis button.
